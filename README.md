@@ -21,3 +21,9 @@ Comments |Liked by
 Profile | Search users | Edit Profile
 --- | --- | --- |
 ![image](https://user-images.githubusercontent.com/18210415/128549071-dd4be771-dbf2-4837-bafc-13b163a7c689.png)| ![image](https://user-images.githubusercontent.com/18210415/128549149-4f8f6787-0734-426a-aa63-6eef90616d33.png) | ![image](https://user-images.githubusercontent.com/18210415/128549246-f604fd18-91f9-42c7-ae27-6ccc47b32ae6.png)
+
+
+## Credits 🤗
+
+- Icons [icons8.com](https://icons8.com/) 
+- Amazing tutorials and resources by [Philipp Lackner](https://github.com/philipplackner)
