@@ -1,5 +1,12 @@
 # Littlest
+A simple social media application built in kotlin using modern android architecture components and MVVM Architecture.
 
+### Tech Stack
+- Architecture : MVVM
+- Dependency Injection : Dagger-Hilt
+- Async tasks: Kotlin Coroutines
+- Libraries : Firebase, Glide, Material Design, Navigation Component, Android Image Cropper, Live Data
+- Storage : Firebase Cloud Firestore
 ## Auth Screens
 Login | Register
 --- | --- 
