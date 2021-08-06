@@ -1,7 +1,7 @@
 # Littlest
 A simple social media application built in kotlin using modern android architecture components and MVVM Architecture.
 
-### Tech Stack
+## Built With 🛠
 - Architecture : MVVM
 - Dependency Injection : Dagger-Hilt
 - Async tasks: Kotlin Coroutines
