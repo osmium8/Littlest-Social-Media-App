@@ -1,4 +1,4 @@
-# Social-Media-App
+# Littlest
 
 ## Auth Screens
 Login | Register
