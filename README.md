@@ -31,3 +31,4 @@ Comments |Liked by
 
 - Icons [icons8.com](https://icons8.com/) 
 - Amazing resources by [Philipp Lackner](https://github.com/philipplackner)
+- Event Wrapper class [article](https://medium.com/androiddevelopers/livedata-with-snackbar-navigation-and-other-events-the-singleliveevent-case-ac2622673150)
