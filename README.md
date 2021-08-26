@@ -1,5 +1,5 @@
 # Littlest
-A simple social media application built in kotlin using modern android architecture components and MVVM Architecture.
+A minimalistic design social media application built in kotlin using modern android architecture components and MVVM Architecture.
 
 ## Built With 🛠
 - Architecture : MVVM
