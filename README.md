@@ -8,6 +8,10 @@ A simple social media application built in kotlin using modern android architect
 - Libraries : Firebase, Glide, Material Design, Navigation Component, Android Image Cropper, Live Data
 - Storage : Firebase Cloud Firestore
 
+## Firestore database design
+![image](https://user-images.githubusercontent.com/18210415/130911112-8ffaf545-2ff7-4a31-b2af-7f90db7186a1.png)
+
+
 ## Main Screens 📱
 Home | Profile | Search users | Edit Profile
 --- | --- | --- | --- |
