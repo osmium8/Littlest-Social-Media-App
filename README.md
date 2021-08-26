@@ -9,7 +9,7 @@ A simple social media application built in kotlin using modern android architect
 - Storage : Firebase Cloud Firestore
 
 ## Firestore database design
-![image](https://user-images.githubusercontent.com/18210415/130911112-8ffaf545-2ff7-4a31-b2af-7f90db7186a1.png)
+![image](https://user-images.githubusercontent.com/18210415/130911315-64927605-5a81-44f2-854a-65913aaed405.png)
 
 
 ## Main Screens 📱
