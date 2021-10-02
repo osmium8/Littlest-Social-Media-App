@@ -31,7 +31,7 @@ Comments |Liked by
 
 
 
-## Credits 🤗
+## References/Credits
 
 - Icons [icons8.com](https://icons8.com/) 
 - Amazing resources by [Philipp Lackner](https://github.com/philipplackner)
