@@ -8,7 +8,7 @@ A minimalistic design social media application built in kotlin using modern andr
 - Libraries : Firebase, Glide, Material Design, Navigation Component, Android Image Cropper, Live Data
 - Storage : Firebase Cloud Firestore
 
-## Firestore database design
+## Firestore database design 💾📐
 <img src="https://user-images.githubusercontent.com/18210415/130911315-64927605-5a81-44f2-854a-65913aaed405.png" width=50% height=50%>
 
 
