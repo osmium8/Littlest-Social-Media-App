@@ -29,7 +29,8 @@ Comments |Liked by
 
 
 ## Structure ( WIP )
-![littlest - Page 1 (1)](https://user-images.githubusercontent.com/18210415/136543536-72c03668-2375-4690-a073-a1ed88373aa0.png)
+![littlest - Page 1 (2)](https://user-images.githubusercontent.com/18210415/136544075-e9c8fdd1-116f-47e0-9dc8-8cd5ff8cef44.png)
+
 
 
 ## References/Credits
