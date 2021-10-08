@@ -3,10 +3,11 @@ A minimalistic design social media application built in kotlin using modern andr
 
 ## Built With 🛠
 - Architecture : MVVM
-- Dependency Injection : Dagger-Hilt
-- Async tasks: Kotlin Coroutines
-- Libraries : Firebase, Glide, Material Design, Navigation Component, Android Image Cropper, Live Data
 - Storage : Firebase Cloud Firestore
+- Async tasks: Kotlin Coroutines
+- Dependency Injection : Dagger-Hilt
+- Libraries : Firebase Authentication, Glide, Material Design, Navigation Component, Android Image Cropper, Live Data
+
 
 ## Main Screens 📱
 Home | Profile | Search users | Edit Profile
