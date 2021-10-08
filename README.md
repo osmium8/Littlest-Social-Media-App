@@ -17,7 +17,6 @@ Home | Profile | Search users | Edit Profile
 --- | --- | --- | --- |
 ![image](https://user-images.githubusercontent.com/18210415/128552101-8ab982b8-4fe3-4b6f-a199-76135e6a1d6d.png)| ![image](https://user-images.githubusercontent.com/18210415/128549071-dd4be771-dbf2-4837-bafc-13b163a7c689.png)| ![image](https://user-images.githubusercontent.com/18210415/128549149-4f8f6787-0734-426a-aa63-6eef90616d33.png) | ![image](https://user-images.githubusercontent.com/18210415/128549246-f604fd18-91f9-42c7-ae27-6ccc47b32ae6.png)
 
-
 ## Auth Screens 🔐
 Login | Register
 --- | --- 
@@ -29,6 +28,8 @@ Comments |Liked by
 ![image](https://user-images.githubusercontent.com/18210415/128548864-69f8a60a-21e5-47dd-9b21-23b513433b33.png) | ![image](https://user-images.githubusercontent.com/18210415/128548865-76c6f222-ed0b-4145-a4ce-4c403ba4d6f0.png) |
 
 
+## Structure ( WIP )
+![littlest - Page 1 (1)](https://user-images.githubusercontent.com/18210415/136543536-72c03668-2375-4690-a073-a1ed88373aa0.png)
 
 
 ## References/Credits
