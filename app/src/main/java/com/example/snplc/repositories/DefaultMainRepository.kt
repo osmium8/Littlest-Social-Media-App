@@ -31,16 +31,10 @@ import java.util.*
 @ActivityScoped
 class DefaultMainRepository : MainRepository {
 
-    /**
-     * global objects
-     */
     private val auth = FirebaseAuth.getInstance()
     private val firestore = FirebaseFirestore.getInstance()
     private val storage = Firebase.storage
 
-    /**
-     * References to single collections in our storage
-     */
     private val users = firestore.collection("users")
     private val posts = firestore.collection("posts")
     private val comments = firestore.collection("comments")
@@ -48,13 +42,17 @@ class DefaultMainRepository : MainRepository {
     override suspend fun createPost(imageUri: Uri, text: String) = withContext(Dispatchers.IO) {
         safeCall {
             val uid = auth.uid!! // can be asserted because we will be in MainActivity if user logged in
-            val postId = UUID.randomUUID().toString() // generates a unique long string
 
-            /**
-             * Resultupload image from URI to firebase storagereturns TASK so use await()
-             */
+            // generates a unique long string
+            val postId = UUID.randomUUID().toString()
+
+            // upload image from URI(local storage address) to firebase storage
             val imageUploadResult = storage.getReference(postId).putFile(imageUri).await()
+
+            // get URL after uploading to firebase
             val imageUrl = imageUploadResult?.metadata?.reference?.downloadUrl?.await().toString()
+
+            //set new Post document
             val post = Post(
                 id = postId,
                 authorUid = uid,
@@ -62,20 +60,19 @@ class DefaultMainRepository : MainRepository {
                 imageUrl = imageUrl,
                 date = System.currentTimeMillis()
             )
-            posts.document(postId).set(post).await()
+            posts.document(postId).set(post).await() // returns TASK so use await()
             Resource.Success(Any())
         }
     }
 
-
-    /**
-     * get all users from fire store in this list
-     * @whereIn() is a fire store query
-     */
+    // get all user documents from users-collection in this list
     override suspend fun getUsers(uids: List<String>) = withContext(Dispatchers.IO) {
         safeCall {
-            val usersList = users.whereIn("uid", uids).orderBy("username").get().await()
-                .toObjects(User::class.java)
+            val usersList = users.whereIn("uid", uids)
+                                .orderBy("username")
+                                .get()
+                                .await()
+                                .toObjects(User::class.java)
             Resource.Success(usersList)
         }
     }
